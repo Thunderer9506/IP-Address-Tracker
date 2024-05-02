@@ -1,4 +1,3 @@
-
 document.querySelector(".searchButton button").addEventListener("click",function(){
   let ip = document.querySelector(".searchButton input").value
   let apiUrl = "https://geo.ipify.org/api/v2/country,city?apiKey=at_gQIXcNKidkzQ3NRoHnDmmEhGQZPVU&ipAddress=" + ip
@@ -21,7 +20,6 @@ function info(ip,loc,time,isp){
   document.querySelector(".isp h1").innerText = isp
 }
 
-// Make a GET request
 function getdata(url){
   fetch(url)
   .then(response => {

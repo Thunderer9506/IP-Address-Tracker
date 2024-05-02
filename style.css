@@ -23,6 +23,7 @@ body{
         padding: 2rem;        
     }
 }
+
 @media (max-width:975px) {
     .header{
         h1{
@@ -31,6 +32,9 @@ body{
         }
     }
 }
+
+
+
 .searchButton{
     input{
         border-top-left-radius: 10px;
@@ -53,6 +57,7 @@ body{
     }
     
 }
+
 @media (max-width:975px) {
     .searchButton{
         input{
@@ -61,6 +66,9 @@ body{
         }
     }
 }
+
+
+
 .info_back{
     display: flex;
     width: 100%;
@@ -92,6 +100,7 @@ body{
         }
     }
 }
+
 @media (max-width:975px) {
     .info_back{
         width: 100%;
@@ -123,6 +132,8 @@ body{
         }
     }
 }
+
+
 
 #map{
     height: 50rem;
