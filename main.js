@@ -1,6 +1,6 @@
-document.querySelector(".searchButton button").addEventListener("click",function(){
-  let ip = document.querySelector(".searchButton input").value
-  let apiUrl = "https://geo.ipify.org/api/v2/country,city?apiKey=at_gQIXcNKidkzQ3NRoHnDmmEhGQZPVU&ipAddress=" + ip
+document.getElementById("ip_search").addEventListener("click",function(){
+  let ip = document.getElementById("ip_searchTab").value
+  let apiUrl = "https://geo.ipify.org/api/v2/country,city?apiKey={your api key}&ipAddress=" + ip
   getdata(apiUrl)
 })
 
@@ -30,7 +30,7 @@ function getdata(url){
   })
   .then(data => {
     info(data.ip,
-      data.location.city +","+ data.location.country+","+ data.location.postalCode,
+      data.location.city +","+ data.location.region+","+data.location.country,
       data.location.timezone,
       data.isp)
     getMap(data.location.lat,data.location.lng)
