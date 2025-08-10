@@ -2,9 +2,8 @@
 
 An interactive web app that lets users visualize the geographic location of any IP address on a map, complete with relevant details like region, city, and more.
 
-## Demo
-
-(Add your live demo URL here if available.)
+## Screenshot
+<img src = "./images/Screenshot.png" alt="Screenshot"/>
 
 ## Features
 
