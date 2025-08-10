@@ -8,6 +8,10 @@ body{
     width: 100%;
 }
 
+#ip_search{
+    cursor: pointer;;
+}
+
 .header{
     background-image: url("images/pattern-bg-desktop.png");
     background-size: cover;
